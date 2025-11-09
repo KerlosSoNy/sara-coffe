@@ -1,0 +1,20 @@
+.header {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+
+  .menu {
+    width: 480px;
+    height: 650px;
+    background-color: #37503b;
+    border-radius: 25px;
+    position: relative;
+    z-index: 20;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    left: 20px;
+  }
+}
