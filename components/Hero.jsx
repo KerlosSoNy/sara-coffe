@@ -7,7 +7,7 @@ import AnimatedText from "./AnimatedText";
 
 import styles from "./styles.module.scss";
 
-import HeroPic from "@/public/assets/images/hero3.jpg";
+import HeroPic from "@/public/assets/images/1.jpg";
 
 export default function Hero() {
   const container = useRef(null);
