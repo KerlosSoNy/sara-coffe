@@ -5,16 +5,16 @@ import Image from "next/image";
 
 import styles from "./styles.module.scss";
 
-import parallaxPic1 from "@/public/assets/images/parallaxpic1.jpg";
-import parallaxPic2 from "@/public/assets/images/parallaxpic2.jpg";
-import parallaxPic3 from "@/public/assets/images/parallaxpic3.jpg";
-import parallaxPic4 from "@/public/assets/images/parallaxpic4.jpg";
+import parallaxPic1 from "@/public/assets/images/4.jpg";
+import parallaxPic2 from "@/public/assets/images/2.jpg";
+import parallaxPic3 from "@/public/assets/images/3.jpg";
+import parallaxPic4 from "@/public/assets/images/5.jpg";
 // import parallaxPic5 from "@/public/assets/images/parallaxpic5.jpg";
 // import parallaxPic6 from "@/public/assets/images/parallaxpic6.jpeg";
 import parallaxPic7 from "@/public/assets/images/parallaxpic7.jpg";
 // import parallaxPic8 from "@/public/assets/images/parallaxpic8.jpg";
 import parallaxPic10 from "@/public/assets/images/parallaxpic10.jpg";
-import parallaxPic11 from "@/public/assets/images/parallaxpic11.jpg";
+import parallaxPic11 from "@/public/assets/images/6.jpg";
 // import placeholder from "@/public/assets/images/placeholder.png";
 
 export default function ZoomParallax() {

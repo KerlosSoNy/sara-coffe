@@ -9,7 +9,6 @@ const ServiceCard = ({
   title,
   description,
   src,
-  link,
   color,
   progress,
   range,

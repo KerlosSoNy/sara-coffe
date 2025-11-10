@@ -61,7 +61,7 @@ import React from "react";
 import Image from "next/image";
 import LenisScroll from "@/components/LenisScroll";
 import Link from "next/link";
-import bannerImage from "@/public/assets/images/servicepic3.jpg";
+import bannerImage from "@/public/assets/images/10.jpg";
 import AcademyForm from "@/components/forms/AcademyForm";
 import Title from "@/components/Title";
 import { getCategories, getProductsByCategorySlug } from "@/lib/woocommerce";

@@ -66,8 +66,8 @@ const cardsBottom = [
 
 export default function ValueCard() {
   return (
-    <div className="overflow-scroll flex flex-col justify-start">
-      <div className="flex justify-start items-center gap-10">
+    <div className="overflow-auto flex flex-col justify-start">
+      <div className="flex justify-center items-center gap-10">
         {cardsTop.map((card, i) => (
           <motion.div
             key={card.id}
@@ -102,7 +102,7 @@ export default function ValueCard() {
         ))}
       </div>
 
-      <div className="flex justify-start items-center gap-10 -mt-10 ">
+      <div className="flex justify-center items-center gap-10 -mt-10 ">
         {cardsBottom.map((card, i) => (
           <motion.div
             key={card.id}

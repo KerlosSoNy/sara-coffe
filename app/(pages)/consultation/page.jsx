@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import LenisScroll from "@/components/LenisScroll";
 import Link from "next/link";
-import bannerImage from "@/public/assets/images/parallaxpic2.jpg";
+import bannerImage from "@/public/assets/images/11.jpg";
 
 import ConsultationForm from "@/components/forms/ConsultationForm";
 import Title from "@/components/Title";
