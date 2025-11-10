@@ -1,6 +1,6 @@
 import servicepic1 from "@/public/assets/images/9.jpg";
 import servicepic2 from "@/public/assets/images/8.jpg";
-import servicepic3 from "@/public/assets/images/7.jpg";
+import servicepic3 from "@/public/assets/images/77.jpg";
 import placeholder from "@/public/assets/images/placeholder.png";
 
 export const projects = [

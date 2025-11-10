@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import styles from "./styles.module.scss";
 
-import parallaxPic1 from "@/public/assets/images/4.jpg";
+import parallaxPic1 from "@/public/assets/images/44.jpg";
 import parallaxPic2 from "@/public/assets/images/2.jpg";
 import parallaxPic3 from "@/public/assets/images/3.jpg";
 import parallaxPic4 from "@/public/assets/images/5.jpg";
