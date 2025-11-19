@@ -55,8 +55,13 @@ export default async function ConsultationPage({ params }) {
             </li>
 
             <li>
-              <Link href="tel:+971504005400">Whatsapp: +971 50 400 5400</Link>
+              <Link href="tel:+971502504003">Whatsapp: +971 50 250 4003</Link>
             </li>
+            <li>
+                <Link href="https://www.instagram.com/sara.alkhooori/">
+                  Instagram : Sara Alkhoori
+                </Link>
+              </li>
           </ul>
         </div>
       </div>

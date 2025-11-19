@@ -1064,7 +1064,7 @@ export default function CheckoutPage() {
   };
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container  mx-auto py-10">
       <Title
         tag="h1"
         className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase mb-4"
@@ -1074,7 +1074,7 @@ export default function CheckoutPage() {
 
       {error && <p className="text-red-500 text-center mb-4">{error}</p>}
 
-      <div className="grid md:grid-cols-2 gap-8 font-adorealternate">
+      <div className="grid md:grid-cols-2  gap-8 font-arial">
         {/* Billing Form */}
         <div>
           <h2 className="text-xl mb-4">Shipping Information</h2>

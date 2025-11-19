@@ -58,7 +58,7 @@ export default async function Home() {
         </div>
         <div className="flex justify-end items-center flex-col relative pb-20 ">
           <h2 className="text-[42px] py-20 font-adorealternate md:text-[52px] font-medium">
-            Sara's Service
+            Sara's Services
           </h2>
           <ServiceComponent />
         </div>

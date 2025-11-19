@@ -8,7 +8,7 @@ export default function Logo() {
   return (
     <Link href="/">
       {/* <Image src={logo} width={80} height={80} alt="logo" /> */}
-      <Image src={logo} alt="logo" width={120} height={120} />
+      <Image src={logo} alt="logo" width={180} height={120} />
     </Link>
   );
 }

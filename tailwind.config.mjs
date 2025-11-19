@@ -18,6 +18,7 @@ export default {
     },
     extend: {
       fontFamily: {
+        arial: ["ArialCustom", "sans-serif"],
         sans: ["var(--font-adorealternate)", "sans-serif"],
         adorealternate: ["var(--font-adorealternate)", "sans-serif"],
         adore: ["var(--font-adore)", "sans-serif"],
