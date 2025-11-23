@@ -21,7 +21,7 @@ export default function ProductPageWrapper({ product }) {
         <div className="md:col-span-6 ">
           <Title
             tag="h1"
-            className="text-xl md:text-4xl font-arialmy-5"
+            className="text-xl md:text-4xl  font-arial my-5"
           >
             {product.name}
           </Title>
@@ -41,12 +41,12 @@ export default function ProductPageWrapper({ product }) {
       <div className="mb-5">
         <Title
           tag="h2"
-          className="text-xl md:text-2xl mb-4 font-arialfont-medium"
+          className="text-xl md:text-2xl mb-4  font-arial font-medium"
         >
           Product Description
         </Title>
         <div
-          className="text-gray-700 mb-4 font-adorealternate"
+          className="text-gray-700 mb-4  font-arial  "
           dangerouslySetInnerHTML={{ __html: product.description }}
         />
       </div>
@@ -54,7 +54,7 @@ export default function ProductPageWrapper({ product }) {
       <div className="mb-5">
         <Title
           tag="h2"
-          className="text-xl md:text-2xl mb-4 font-arialfont-medium"
+          className="text-xl md:text-2xl mb-4  font-arial font-medium"
         >
           Product Specification
         </Title>

@@ -50,10 +50,10 @@ export default function CartPage() {
   };
 
   return (
-    <div className="container py-10 font-adorealternate">
+    <div className="container py-10  font-arial  ">
       <Title
         tag="h2"
-        className="text-2xl md:text-4xl text-center p-2 font-arialuppercase"
+        className="text-2xl md:text-4xl text-center p-2  font-arial uppercase"
       >
         Cart
       </Title>

@@ -31,7 +31,7 @@ import LenisScroll from "@/components/LenisScroll";
 export default async function Home() {
   return (
     <>
-      <main className="font-arial">
+      <main className=" font-arial ">
         <LenisScroll />
         <Hero />
         <div className="container">

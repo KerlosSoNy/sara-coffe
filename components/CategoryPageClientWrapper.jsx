@@ -27,7 +27,7 @@ export default function CategoryPageClientWrapper({
 
   return (
     <div className="container pb-20">
-      <h2 className="text-2xl text-center font-bold mb-8 py-5 font-adorealternate">
+      <h2 className="text-2xl text-center font-bold mb-8 py-5  font-arial  ">
         {categoryName}
       </h2>
 

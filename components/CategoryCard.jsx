@@ -13,7 +13,7 @@ export default function CategoryCard({ category, className }) {
     >
       {/* Title Section */}
       <div className="p-4 text-center ">
-        <h2 className=" md:text-lg font text-white transition-all duration-300 md:group-hover:-translate-y-2 font-arial">
+        <h2 className=" md:text-lg font text-white transition-all duration-300 md:group-hover:-translate-y-2  font-arial ">
           {name}
         </h2>
         {/* <div className=" rounded-tr-[8px] rounded-tl-[8px] left-1/2 transform -translate-x-1/2 bottom-0 h-[10px] w-32  bg-[#BDDFCF] opacity-0 transition-all duration-300 group-hover:bottom-[0px]   group-hover:opacity-100" /> */}

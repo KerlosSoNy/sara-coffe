@@ -20,7 +20,7 @@ export default function AboutUs() {
       <div className="container flex justify-between items-center py-2 relative flex-col md:flex-row">
         <div className="w-full lg:w-[60%]">
           <div className="flex justify-start items-center mb-5">
-            <h2 className="text-[32px] mr-6 font-arial font-bold md:text-[52px]">
+            <h2 className="text-[32px] mr-6  font-arial  font-bold md:text-[52px]">
               About Us
             </h2>
             <Image src={Element1} width={35} height={35} alt="" />
@@ -33,7 +33,7 @@ export default function AboutUs() {
       </div>
 
       <div className="content-container flex flex-col items-center pt-10 pb-52">
-        <h2 className="text-[32px] font-arial font-bold mb-20 md:text-[42px]">
+        <h2 className="text-[32px]  font-arial  font-bold mb-20 md:text-[42px]">
           Certified sensory judge certificates
         </h2>
         <div className="w-full flex flex-col md:flex-row justify-between items-center gap-2">

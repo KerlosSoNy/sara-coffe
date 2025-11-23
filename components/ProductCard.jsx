@@ -64,7 +64,7 @@ export default function ProductCard({ product }) {
         height={1000}
       />
       <div className="flex flex-col pt-2 pb-4 px-2 min-h-[140px]">
-        <h3 className="text-base font-medium mb-2 font-adorealternate">
+        <h3 className="text-base font-medium mb-2  font-arial  ">
           {name}
         </h3>
         <DiscountBadge product={product} />

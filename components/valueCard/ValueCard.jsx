@@ -113,7 +113,7 @@ export default function ValueCard() {
           >
             <div className="relative text-white px-5 w-[300px] h-[400px] rounded-b-xl bg-[#734B40] ">
               <div className="absolute top-0 right-0 bottom-0 left-0 w-fit h-fit z-30 m-auto text-center px-5 ">
-                <h3 className="font-arialmb-2 text-[20px]">
+                <h3 className=" font-arial mb-2 text-[20px]">
                   {card.title}
                 </h3>
                 <p className="px-5 text-[14px] font-montserrat text-white">

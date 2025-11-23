@@ -20,7 +20,7 @@ export default function ProductCategories() {
           href="/products"
           className="relative rounded-lg bg-[#526E56] h-[250px] overflow-hidden flex justify-center items-center p-5 "
         >
-          <p className="text-[#F0E7D5]  stroke-cyan-500 drop-shadow text-[22px] md:text-[28px] font-arialz-10">
+          <p className="text-[#F0E7D5]  stroke-cyan-500 drop-shadow text-[22px] md:text-[28px]  font-arial z-10">
             Roastery
           </p>
           <Image
@@ -43,7 +43,7 @@ export default function ProductCategories() {
           href="/academy"
           className="relative rounded-lg bg-[#AF7A6A]  h-[250px] flex justify-center items-center overflow-hidden  p-5"
         >
-          <p className="text-[#EFE5D4] text-[22px] md:text-[28px] font-arial">
+          <p className="text-[#EFE5D4] text-[22px] md:text-[28px]  font-arial ">
             Sara's Academy
           </p>
           <Image
@@ -66,7 +66,7 @@ export default function ProductCategories() {
           href="/consultation"
           className="relative rounded-lg bg-[#EFE6D5]  h-[250px] flex justify-center items-center overflow-hidden  p-5 "
         >
-          <p className="text-[#38503C] text-[20px] md:text-[28px] font-Adorealternate">
+          <p className="text-[#38503C] text-[20px] md:text-[28px]  font-arial  ">
             Sara's Consultation
           </p>
           <Image

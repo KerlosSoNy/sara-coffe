@@ -62,7 +62,7 @@ export default function ZoomParallax() {
   ];
 
   return (
-    <div ref={container} className={`${styles.container} font-Adorealternate`}>
+    <div ref={container} className={`${styles.container}  font-arial  `}>
       <div className={styles.sticky}>
         {pictures.map(({ src, scale, title, text }, index) => {
           return (

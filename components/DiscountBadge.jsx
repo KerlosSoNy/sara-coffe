@@ -53,7 +53,7 @@ export default function DiscountBadge({ product }) {
   return (
     <Badge
       variant="destructive"
-      className="absolute top-2 right-2 bg-red-600 text-white font-arial"
+      className="absolute top-2 right-2 bg-red-600 text-white  font-arial "
     >
       {maxDiscount}% Sale
     </Badge>

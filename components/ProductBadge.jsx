@@ -12,7 +12,7 @@ export default function ProductBadge({ createdAt }) {
   return isNew ? (
     <Badge
       variant="default"
-      className="absolute top-2 left-2 z-[999] bg-green-600 text-white font-adorealternate"
+      className="absolute top-2 left-2 z-[999] bg-green-600 text-white  font-arial  "
     >
       NEW
     </Badge>
