@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: var(--font-yekanbakh), Arial, Helvetica, sans-serif;
-  /* direction: rtl; */
-  /* text-align: right; */
-}
+
 /* html[dir="rtl"] {
   text-align: right;
 } */
@@ -145,3 +141,7 @@ p {
   font-style: italic;
 }
 
+
+body {
+  font-family: "ArialCustom", Arial, Helvetica, sans-serif;
+}
