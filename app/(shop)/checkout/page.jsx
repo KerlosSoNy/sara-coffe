@@ -164,7 +164,7 @@
 // //     <div className="container mx-auto py-10 ">
 // //       <Title
 // //         tag="h1"
-// //         className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase mb-4"
+// //         className="text-2xl md:text-4xl text-center p-2 font-arialuppercase mb-4"
 // //       >
 // //         checkout
 // //       </Title>
@@ -455,7 +455,7 @@
 //     <div className="container mx-auto py-10">
 //       <Title
 //         tag="h1"
-//         className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase mb-4"
+//         className="text-2xl md:text-4xl text-center p-2 font-arialuppercase mb-4"
 //       >
 //         checkout
 //       </Title>
@@ -749,7 +749,7 @@
 //     <div className="container mx-auto py-10">
 //       <Title
 //         tag="h1"
-//         className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase mb-4"
+//         className="text-2xl md:text-4xl text-center p-2 font-arialuppercase mb-4"
 //       >
 //         checkout
 //       </Title>
@@ -1067,7 +1067,7 @@ export default function CheckoutPage() {
     <div className="container  mx-auto py-10">
       <Title
         tag="h1"
-        className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase mb-4"
+        className="text-2xl md:text-4xl text-center p-2 font-arialuppercase mb-4"
       >
         checkout
       </Title>

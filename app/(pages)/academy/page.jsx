@@ -21,7 +21,7 @@
 //           alt="Academy Banner"
 //         />
 //         <h1
-//           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-[32px] text-white font-adorealternate font-black md:text-[62px]
+//           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-[32px] text-white font-arialfont-black md:text-[62px]
 //         "
 //         >
 //           Sara's Academy
@@ -29,16 +29,16 @@
 //       </div>
 //       <Title
 //         tag="h2"
-//         className="text-center md:text-4xl text-2xl font-adorealternate font-medium my-10 md:my-20"
+//         className="text-center md:text-4xl text-2xl font-arialfont-medium my-10 md:my-20"
 //       >
 //         Get in Touch
 //       </Title>
 //       <div className="pt-4 pb-20 md:pb-40 flex flex-col-reverse md:grid grid-cols-12 container gap-20">
-//         <div className="block md:col-span-6 text-2xl md:text-5xl font-adorealternate  text-[#38503C]">
+//         <div className="block md:col-span-6 text-2xl md:text-5xl font-arial text-[#38503C]">
 //           <AcademyForm />
 //         </div>
 //         <div className="block md:col-span-6 pt-6">
-//           <ul className="flex flex-col gap-10 font-adorealternate font-bold text-xl">
+//           <ul className="flex flex-col gap-10 font-arialfont-bold text-xl">
 //             <li>
 //               <Link href="mailto:sara.coffeeconsultants@gmail.com">
 //                 Email: sara.coffeeconsultants@gmail.com
@@ -96,10 +96,10 @@ export default async function AcademyPage() {
           className="w-full h-[200px] md:h-[500px] rounded-md object-cover"
           alt="Academy Banner"
         />
-        <h1 className="absolute md:top-1/3 top-[20%] left-1/2 -translate-x-1/2 -translate-y-1/3 text-center text-[32px] text-white font-adorealternate font-black md:text-[62px]">
+        <h1 className="absolute md:top-1/3 top-[20%] left-1/2 -translate-x-1/2 -translate-y-1/3 text-center text-[32px] text-white font-arial font-black md:text-[62px]">
           Sara's Academy
         </h1>
-        <div className="font-adorealternate font-medium text-[18px] md:text-[24px] text-[#38503C] text-center px-5 md:px-10 mt-10 md:mt-20">
+        <div className="font-arial font-medium text-[18px] md:text-[24px] text-[#38503C] text-center px-5 md:px-10 mt-10 md:mt-20">
           <p>
             With my expertise as an Authorized SCA (Specialty Coffee
             Association) Trainer, a Certified Coffee Sensory Judge by the World
@@ -126,17 +126,17 @@ export default async function AcademyPage() {
 
       <Title
         tag="h2"
-        className="text-center md:text-4xl text-2xl font-adorealternate font-medium my-10 md:my-20"
+        className="text-center md:text-4xl text-2xl font-arialfont-medium my-10 md:my-20"
       >
         Get in Touch
       </Title>
 
       <div className="pt-4 pb-20 md:pb-40 flex flex-col-reverse md:grid grid-cols-12 container gap-20">
-        <div className="block md:col-span-6 text-2xl md:text-5xl font-adorealternate  text-[#38503C]">
+        <div className="block md:col-span-6 text-2xl md:text-5xl font-arial text-[#38503C]">
           <AcademyForm />
         </div>
         <div className="block md:col-span-6 pt-6">
-          <ul className="flex flex-col gap-10 font-adorealternate font-bold text-xl">
+          <ul className="flex flex-col gap-10 font-arialfont-bold text-xl">
             <li>
               <Link href="mailto:sara.coffeeconsultants@gmail.com">
                 Email: sara.coffeeconsultants@gmail.com

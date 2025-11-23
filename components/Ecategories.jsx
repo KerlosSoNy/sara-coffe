@@ -20,7 +20,7 @@ export default function Ecategories() {
           href="/category/drip-bags"
           className="relative rounded-lg bg-[#526E56] h-[100px] md:h-[250px] overflow-hidden flex justify-center items-center p-5 "
         >
-          <p className="text-[#F0E7D5]  stroke-cyan-500 drop-shadow text-[22px] md:text-[28px] font-adorealternate z-10">
+          <p className="text-[#F0E7D5]  stroke-cyan-500 drop-shadow text-[22px] md:text-[28px] font-arialz-10">
             Drip Bags
           </p>
           <Image
@@ -43,7 +43,7 @@ export default function Ecategories() {
           href="/category/arabic-coffee"
           className="relative rounded-lg bg-[#AF7A6A]  h-[100px] md:h-[250px] flex justify-center items-center overflow-hidden  p-5"
         >
-          <p className="text-[#EFE5D4] text-[22px] md:text-[28px] font-adorealternate ">
+          <p className="text-[#EFE5D4] text-[22px] md:text-[28px] font-arial">
             Arabic Coffee
           </p>
           <Image

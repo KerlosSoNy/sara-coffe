@@ -25,7 +25,7 @@ const Section2 = () => {
   return (
     <div className="md:flex justify-start md:items-center text-white relative gap-10 w-full">
       <div className=" flex justify-center md:justify-start items-center gap-1 md:gap-5 mb-5 md:mb-0">
-        <h1 className="text-[16px] md:text-[42px] leading-[0.8] font-adorealternate z-10 md:mb-2">
+        <h1 className="text-[16px] md:text-[42px] leading-[0.8] font-arialz-10 md:mb-2">
           Sara Coffee
         </h1>
         <p className="z-10 text-[14px] text-white">
@@ -59,7 +59,7 @@ const Nav = () => {
   return (
     <div className="md:flex max-md:shrink-0 md:gap-40">
       <div className="flex flex-col gap-2 text-white mb-10">
-        <h3 className="mb-2 max-md:mb-8 uppercase font-adorealternate font-bold text-[24px] ">
+        <h3 className="mb-2 max-md:mb-8 uppercase font-arialfont-bold text-[24px] ">
           Contact Us
         </h3>
         <p className="mb-2 max-md:mb-8 uppercase font-montserrat text-[16px] md:w-3/4 text-white">
@@ -88,7 +88,7 @@ const Nav = () => {
         <p></p>
       </div>
       <div className="flex flex-col gap-2 text-white ">
-        <h3 className="mb-2 max-md:mb-8 uppercase font-adorealternate font-bold text-[24px]">
+        <h3 className="mb-2 max-md:mb-8 uppercase font-arialfont-bold text-[24px]">
           socials
         </h3>
         <div className="flex justify-start md:justify-center items-center gap-10 font-montserrat z-10">

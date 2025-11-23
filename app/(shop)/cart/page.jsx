@@ -53,7 +53,7 @@ export default function CartPage() {
     <div className="container py-10 font-adorealternate">
       <Title
         tag="h2"
-        className="text-2xl md:text-4xl text-center p-2 font-adorealternate uppercase"
+        className="text-2xl md:text-4xl text-center p-2 font-arialuppercase"
       >
         Cart
       </Title>

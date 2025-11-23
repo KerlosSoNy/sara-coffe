@@ -31,7 +31,7 @@ import LenisScroll from "@/components/LenisScroll";
 export default async function Home() {
   return (
     <>
-      <main className="font-adorealternate">
+      <main className="font-arial">
         <LenisScroll />
         <Hero />
         <div className="container">
@@ -41,7 +41,7 @@ export default async function Home() {
           <div className="container flex justify-between items-center py-10 md:py-24 relative flex-col md:flex-row ">
             <div className="w-full lg:w-[60%]">
               <div className="flex justify-start items-center mb-5">
-                <h2 className="text-[32px] mr-6 font-adorealternate font-medium md:text-[52px]">
+                <h2 className="text-[32px] mr-6  font-medium md:text-[52px]">
                   About Us
                 </h2>
                 <Image src={Element1} width={35} height={35} alt="" />
@@ -57,7 +57,7 @@ export default async function Home() {
           <ZoomParallax />
         </div>
         <div className="flex justify-end items-center flex-col relative pb-20 ">
-          <h2 className="text-[42px] py-20 font-adorealternate md:text-[52px] font-medium">
+          <h2 className="text-[42px] py-20  md:text-[52px] font-medium">
             Sara's Services
           </h2>
           <ServiceComponent />
