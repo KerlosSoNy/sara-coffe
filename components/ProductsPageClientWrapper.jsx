@@ -14,7 +14,6 @@ export default function ProductsPageClientWrapper({
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-
   const handleSortChange = (filters) => {
     const queryParams = new URLSearchParams(searchParams.toString());
     queryParams.set("sortBy", filters.sortBy);

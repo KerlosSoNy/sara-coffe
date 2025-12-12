@@ -4,10 +4,10 @@ import { Suspense } from "react";
 import CategoryCard from "@/components/CategoryCard";
 import Ecategories from "@/components/Ecategories";
 
-export default async function ProductsPage({ params }) {
+export default async function ProductsPage(props) {
   const perPage = 15;
-  const page = parseInt(params.page || "1", 10);
-
+  const searchParams = await props.searchParams;
+  const page = parseInt(searchParams?.page || "1", 10);
   const [categories, productsResponse] = await Promise.all([
     getCategories(),
     getProducts(page, perPage),
