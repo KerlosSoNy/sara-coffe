@@ -6,11 +6,11 @@ import Ecategories from "@/components/Ecategories";
 
 export default async function ProductsPage({ searchParams }) {
   const perPage = 15;
-  const page = parseInt(searchParams?.page || "1", 10);
+  // const page = parseInt(searchParams?.page || "1", 10);
 
   const [categories, productsResponse] = await Promise.all([
     getCategories(),
-    getProducts(page, perPage),
+    getProducts(1, perPage),
   ]);
 
   const products = productsResponse.products;
@@ -48,7 +48,7 @@ export default async function ProductsPage({ searchParams }) {
         products={products}
         total={total}
         slug="products"
-        currentPage={page}
+        currentPage={1}
         totalPages={totalPages}
         categories={categories}
         categoryName="همه محصولات"

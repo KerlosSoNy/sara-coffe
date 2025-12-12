@@ -4,7 +4,6 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: "2022-11-15",
 });
 
-export const config = { runtime: "edge" }; // optional
 
 export async function POST(req) {
   const { total, order_id } = await req.json();
