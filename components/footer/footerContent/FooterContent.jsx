@@ -69,10 +69,10 @@ const Nav = () => {
         <ul className="pl-3">
           <li className="list-disc">
             <Link
-              href="tel:+971504005400"
+              href="tel:+971502504003"
               className="text-[18px] font-montserrat "
             >
-              +971 50 400 5400
+              +971 50 250 4003
             </Link>
           </li>
           <li className="list-disc">

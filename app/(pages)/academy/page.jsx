@@ -87,7 +87,7 @@ export default async function AcademyPage() {
             </li>
 
             <li>
-              <Link href="tel:+971504005400">Whatsapp: +971 50 400 5400</Link>
+              <Link href="tel:+971502504003">Whatsapp: +97150 250 4003</Link>
             </li>
           </ul>
         </div>
